@@ -29,4 +29,10 @@
   dd {
 
   }
+  p a {
+    @apply underline text-weaver-alt;
+  }
+  p a:hover {
+    @apply underline text-weaver-dark;
+  }
 }
