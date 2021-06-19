@@ -1,38 +1,51 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>Peace of mind from prototype to production</p>
-</section>
 
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
-      <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.5/CHANGELOG.md">v1.5 Changelog</a>
-      </li>
-    </ul>
-  </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
-      <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-      <li>
-        <a href="https://elixir-slackin.herokuapp.com/">Elixir on Slack</a>
-      </li>
-    </ul>
-  </article>
-</section>
+
+
+<h1>Sprytna Services</h1>
+<p>
+  Sprytna LLC is a craft digital agency offering small batch custom software and application development specifically for data processing, transformation, and automation.
+</p>
+
+<dl>
+  <dt>
+      <h2>Identify opportunities for automation to quickly address changes.</h2>
+
+  </dt>
+  <dd>
+    <p>The manual processes required to transform data to required templates slow down your ability to respond to customer/partner requests and take internal resources away from performing higher value functions.</p>
+    <p>Sprytna provides services to format data for specific exports and match template specifications.</p>
+  </dd>
+  <dt>
+    <h2>Automate repetitive spreadsheet work.</h2>
+  </dt>
+  <dd>
+    <p>Spreadsheets are great for number crunching, they are less great at making bulk updates to text, combining cells to create new cells, etc.</p>
+    <p>Sprytna enhances your data transformation processes with customized technology to automate your most repetitive tasks.
+  </dd>
+  <dt>
+    <h2>Manage the complexity of distribution.</h2>
+  </dt>
+  <dd>
+    <p>Have you made it easy for customers and partners to work with your company?
+        Do you require your customers/partners to log in, download and edit your data? Do you need to keep track of different versions each time you send out data?</p>
+    <p>Sprytna manages the complexity of distribution while maintaining special requests and different formats of data for different customers/partners
+        so your partners don't need to.
+  </dd>
+  <dt>
+    <h2>Share data between systems.</h2>
+  </dt>
+  <dd>
+    <p>Often internal or 3rd-party systems need to share information that were never designed to work together.</p>
+    <p>Sprytna examines the capabilities of these systems and looks for low-cost opportunities.</p>
+  </dd>
+  <dt>
+    <h2>Enhance, error check, and validate.</h2>
+  </dt>
+  <dd>
+    <p>Data can get stale, accumulate errors over years, have non-intentional blanks or simply be poorly pulled from multiple sources.</p>
+    <p>Sprytna can help you evaluate your data and identify potential errors. </p>
+  </dd>
+
+
+
+</dl>

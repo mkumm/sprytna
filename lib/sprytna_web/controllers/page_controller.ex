@@ -1,7 +1,15 @@
 defmodule SprytnaWeb.PageController do
   use SprytnaWeb, :controller
 
-  def index(conn, _params) do
-    render(conn, "index.html")
+  def services(conn, _params) do
+    render(conn, "index.html", %{page_title: "Services"})
+  end
+
+  def contact(conn, _params) do
+    render(conn, "contact.html", %{page_title: "Contact"})
+  end
+
+  def about(conn, _params) do
+    render(conn, "about.html", %{page_title: "About"})
   end
 end

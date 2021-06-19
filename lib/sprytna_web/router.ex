@@ -16,7 +16,9 @@ defmodule SprytnaWeb.Router do
   scope "/", SprytnaWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    get "/", PageController, :services
+    get "/about", PageController, :about
+    get "/contact", PageController, :contact
   end
 
   # Other scopes may use custom stacks.

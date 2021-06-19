@@ -1,36 +1,26 @@
 /* This file is for your main application css. */
-@import "./phoenix.css";
 
-/* Alerts and form errors */
-.alert {
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-.alert-info {
-  color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-}
-.alert-warning {
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc;
-}
-.alert-danger {
-  color: #a94442;
-  background-color: #f2dede;
-  border-color: #ebccd1;
-}
-.alert p {
-  margin-bottom: 0;
-}
-.alert:empty {
-  display: none;
-}
-.invalid-feedback {
-  color: #a94442;
-  display: block;
-  margin: -1rem 0 2rem;
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl pb-3 font-bold text-weaver-dark;
+  }
+  h2 {
+    @apply text-2xl text-weaver-lite;
+  }
+  dt {
+    @apply pt-8 font-medium;
+  }
+  p {
+    @apply pb-3 font-body text-gray-900;
+  }
+  dt {
+    @apply pb-3;
+  }
 }
