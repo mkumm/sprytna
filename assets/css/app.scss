@@ -12,10 +12,10 @@
     @apply font-body;
   }
   h1 {
-    @apply text-3xl pb-3 text-weaver-dark font-body;
+    @apply text-3xl pb-3 text-weaver-dark font-sans font-bold;
   }
   h2 {
-    @apply text-2xl text-weaver-lite font-body;
+    @apply text-2xl text-weaver-lite font-sans font-bold;
   }
   dt {
     @apply pt-8 font-medium font-body;

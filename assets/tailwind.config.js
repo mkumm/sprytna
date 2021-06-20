@@ -23,11 +23,11 @@ module.exports = {
       },
     },
     minHeight: {
-      'small': '25vh',
-      'medium': '33vh',
-      'large': '40vh',
-      'xlarge': '50vh',
-      '2xlarge': '60vh',
+      'small': '15em',
+      'medium': '20em',
+      'large': '30em',
+      'xlarge': '35em',
+      '2xlarge': '40em',
     }
 
 
