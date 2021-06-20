@@ -82,31 +82,39 @@
       </div>
     </div>
 
-  <div id="hero" class="hidden md:block sm:px-6 lg:px-8 w-full bg-weaver border h-72 bg-right-bottom bg-cover lg:bg-contain bg-no-repeat bg-weaver-green">
-    <div class="max-w-4xl mx-auto pt-12 text-white">
-      <%= if assigns[:page_title] == "Services" do %>
-        <h1 class="text-white text-5xl">DATA WEAVING</h1>
-        <p class="text-gray-400 text-3xl">
-          transformation<br />
-          automation<br />
-          processing
-        </p>
-      <% end %>
+  <div class="w-full bg-weaver border bg-center bg-cover bg-no-repeat min-h-small md:min-h-medium lg:min-h-large">
+    <div class="max-w-4xl mx-auto pt-12 pl-6 text-white">
 
-      <%= if assigns[:page_title] == "Contact" do %>
-      <h1 class="text-white text-5xl">Contact Sprytna</h1>
-      <p class="text-gray-400 text-3xl">
-      We look forward to<br /> hearing from you!
-      </p>
-      <% end %>
+        <h1 class="text-white font-sans font-black tracking-wider text-4xl md:text-6xl lg:text-7xl pb-6">
+          <%= if assigns[:page_title] == "Services" do %>DATA WEAVING<% end %>
+          <%= if assigns[:page_title] == "Contact" do %>CONTACT SPRYTNA<% end %>
+          <%= if assigns[:page_title] == "About" do %>"SPRYTNA"<% end %>
+        </h1>
 
-      <%= if assigns[:page_title] == "About" do %>
-      <h1 class="text-white text-5xl">ABOUT</h1>
-      <p class="text-gray-400 text-3xl">
-        A little bit<br />
-        about Sprytna
-      </p>
-      <% end %>
+      <div class="font-sans tracking-wide text-2xl md:text-4xl lg:text-5xl">
+        <%= if assigns[:page_title] == "Services" do %>
+          <p class="text-gray-400">transformation</p>
+          <p class="text-gray-400">automation</p>
+          <p class="text-gray-400">processing</p>
+        <% end %>
+
+        <%= if assigns[:page_title] == "Contact" do %>
+        <p class="text-gray-400">We look forward to</p>
+        <p class="text-gray-400">hearing from you!</p>
+
+        <% end %>
+
+        <%= if assigns[:page_title] == "About" do %>
+        <p class="text-gray-400">A little bit</p>
+        <p class="text-gray-400">about Sprytna</p>
+
+        <% end %>
+
+      </div>
+
+
+
+
 
     </div>
   </div>

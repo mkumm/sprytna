@@ -16,12 +16,18 @@ module.exports = {
         'weaver-dark': '#445E47',
         'weaver-lite': '#247347',
         'weaver-alt': '#8bc53f',
-      }
+      },
+      fontFamily: {
+        'icons': ['Material+Icons'],
+        'body': ['Montserrat'],
+      },
     },
-    fontFamily: {
-      'icons': ['Material+Icons'],
-      'body': ['Montserrat'],
-    },
+    minHeight: {
+      'small': '25vh',
+      'medium': '33vh',
+      'large': '40vh',
+    }
+
 
   },
   variants: {
