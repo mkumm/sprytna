@@ -26,6 +26,8 @@ module.exports = {
       'small': '25vh',
       'medium': '33vh',
       'large': '40vh',
+      'xlarge': '50vh',
+      '2xlarge': '60vh',
     }
 
 
