@@ -1,44 +1,39 @@
+<h2>Data Weaving</h2>
+<p>
+    Data Weaving is Sprytna's agile approach to addressing a wide range of data-centric challenges
+    for small and mid-sized businesses.
+</p>
+<p>
+    By analyzing and breaking down large projects into smaller addressable deliverables, you
+    the customer can control the pace, budget, and results of your project. No long term commitments
+    are required and you start getting wins as fast as possible.
+</p>
 
-<dl>
-  <dt>
-      <h2>Identify opportunities for automation to quickly address changes.</h2>
+<h2>Template Population and Validation</h2>
+<p>Many critical business processes require the populating or feeding of data to forms and templates
+    that you don't control and are difficult to manage.</p>
+<p>Sprytna can often find ways to "pipe" data sources together and the export the data in a format that
+    either works with the third-party requirements, or drastically lowers the time it takes.</p>
 
-  </dt>
-  <dd>
-    <p>The manual processes required to transform data to required templates slow down your ability to respond to customer/partner requests and take internal resources away from performing higher value functions.</p>
-    <p>Sprytna provides services to format data for specific exports and match template specifications.</p>
-  </dd>
-  <dt>
-    <h2>Automate repetitive spreadsheet work.</h2>
-  </dt>
-  <dd>
-    <p>Spreadsheets are great for number crunching, they are less great at making bulk updates to text, combining cells to create new cells, etc.</p>
-    <p>Sprytna enhances your data transformation processes with customized technology to automate your most repetitive tasks.
-  </dd>
-  <dt>
-    <h2>Manage the complexity of distribution.</h2>
-  </dt>
-  <dd>
-    <p>Have you made it easy for customers and partners to work with your company?
-        Do you require your customers/partners to log in, download and edit your data? Do you need to keep track of different versions each time you send out data?</p>
-    <p>Sprytna manages the complexity of distribution while maintaining special requests and different formats of data for different customers/partners
-        so your partners don't need to.
-  </dd>
-  <dt>
-    <h2>Share data between systems.</h2>
-  </dt>
-  <dd>
-    <p>Often internal or 3rd-party systems need to share information that were never designed to work together.</p>
-    <p>Sprytna examines the capabilities of these systems and looks for low-cost opportunities.</p>
-  </dd>
-  <dt>
-    <h2>Enhance, error check, and validate.</h2>
-  </dt>
-  <dd>
-    <p>Data can get stale, accumulate errors over years, have non-intentional blanks or simply be poorly pulled from multiple sources.</p>
-    <p>Sprytna can help you evaluate your data and identify potential errors. </p>
-  </dd>
+<h2>Correct, Enhance, and Improve Data</h2>
+<p>Most organizations collect data over years which can lead to large inconsistencies, incorrect
+and outdated information &mdash; all of which can feel overwhelming to correct.</p>
+<p>Sprytna has experience evaluating data sets for missing data, inconsistencies, and flag
+    suspect for later review. We can also help set up processes and services to help keep your
+data clean and usable.</p>
+
+<h2>Manage Growing and Data Projects</h2>
+<p>Small data projects have a way of turning into large unmanageable data projects.</p>
+<p>Sprytna can help you regain control.</p>
+
+<h2>Replace and Augment Manual Data Entry</h2>
+<p>A host of problems can be resolved by replacing manual processes with automated
+    or assisted data entry to ensure your data validates and minimizes errors &mdash; saving time and grief.</p>
+
+<h2>Fixing Data Silos</h2>
+<p>Data silos exist when data from different sources need to be pulled together for soe purpose, but
+the sources were never designed to share data.</p>
+<p>Sprytna can often find ways to convert data real-time to "talk" to other systems.</p>
 
 
 
-</dl>
