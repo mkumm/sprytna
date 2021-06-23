@@ -31,9 +31,9 @@ data clean and usable.</p>
     or assisted data entry to ensure your data validates and minimizes errors &mdash; saving time and grief.</p>
 
 <h2>Fixing Data Silos</h2>
-<p>Data silos exist when data from different sources need to be pulled together for soe purpose, but
-the sources were never designed to share data.</p>
-<p>Sprytna can often find ways to convert data real-time to "talk" to other systems.</p>
+<p>Data silos exist when data from different source applications need to be pulled together for some purpose, but
+the applications were never designed to work together or share data.</p>
+<p>Sprytna can often find ways to convert data real-time to "talk" and share data with other systems.</p>
 
 
 
