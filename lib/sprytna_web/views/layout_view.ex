@@ -24,12 +24,17 @@ defmodule SprytnaWeb.LayoutView do
     "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
   end
 
-  def get_title("Services"), do: "DATA WEAVING"
-  def get_title("About"), do: "ABOUT"
-  def get_title("Contact"), do: "CONTACT"
+  def get_page_title(:services), do: "Craft Programming and Data Services"
+  def get_page_title(:about), do: "About Data Weaving"
+  def get_page_title(:contact), do: "Quick Contact Info"
+  def get_page_title(_), do: ""
+
+  def get_title(:services), do: "DATA WEAVING"
+  def get_title(:about), do: "ABOUT"
+  def get_title(:contact), do: "CONTACT"
   def get_title(_), do: ""
 
-  def get_leader("Services") do
+  def get_leader(:services) do
   """
   <h1>Sprytna Services</h1>
   <p>
@@ -37,7 +42,7 @@ defmodule SprytnaWeb.LayoutView do
   </p>
   """
   end
-  def get_leader("About") do
+  def get_leader(:about) do
     """
     <h1>About Sprytna LLC</h1>
     <p>
@@ -46,7 +51,7 @@ defmodule SprytnaWeb.LayoutView do
     """
 
   end
-  def get_leader("Contact") do
+  def get_leader(:contact) do
     """
     <h1>Get in touch</h1>
     <p>
@@ -60,9 +65,10 @@ defmodule SprytnaWeb.LayoutView do
 
   def get_subheading(page_title) do
     case page_title do
-      "Services" -> ["automate", "correct and enhance", "export and distribute"]
-      "About" -> ["A Little Bit", "About Sprytna"]
-      "Contact" -> ["We Look Forward", "To Hearing", "From You!"]
+      :services -> ["automate", "correct and enhance", "export and distribute"]
+      :about -> ["A Little Bit", "About Sprytna"]
+      :contact -> ["We Look Forward", "To Hearing", "From You!"]
+      _ -> [""]
     end
     |> Enum.reduce("", fn ln, acc -> acc <>
       """
